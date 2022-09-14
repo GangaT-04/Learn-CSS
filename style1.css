@@ -1,0 +1,32 @@
+.main
+{
+    border: 5px solid black;
+    height: 500px;
+    width: 300px;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+}
+.box
+{
+    width:100px;
+    height:100px;
+    background-color: azure;
+    padding: 20px;
+    font-weight: bold;
+    color:white;
+
+}
+.box1
+{
+    background-color: blueviolet;
+
+}
+.box2
+{
+    background-color: blue;
+    
+}
+.box3
+{
+    background-color: brown;
+}

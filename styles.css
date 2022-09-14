@@ -1,0 +1,64 @@
+/* CSS File*/
+.banner
+{
+   width: 100%;
+   height:100px;
+   background-color:#c13f00;
+
+}
+.content
+{
+   width: 100%;
+   height: 300px;
+
+}
+.footer
+{
+   width: 100%;
+   height:300px;
+   background-color:#4b4b4b;
+}
+.left
+{
+   width: 80%;
+   
+   height:90%;
+   float:left;
+   margin-top: 10px;
+   margin-left: 20px;
+   margin-bottom: 10px;
+}
+.right
+{
+   width:15%;
+   height:90%;
+   float:right;
+   margin-top: 10px;
+   margin-right: 20px;
+   margin-bottom: 10px;
+}
+.welcomebanner
+{
+   margin-left: 20px;
+   line-height: 275%;
+   font-family: tahoma;
+}
+.footerleft
+{
+   height:80%;
+   width: 48%;
+   float: left;
+   margin-top: 10px;
+   margin-left: 20px;
+}
+.footerright
+{
+   height:80%;
+   width: 48%;
+   float:right;
+}
+.icons
+{
+   height: 35px;
+   margin-top:10px ;
+}
