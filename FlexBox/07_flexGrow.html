@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <link rel="stylesheet" href="Styles.css">
+    <style>
+        .container{
+            display: flex;
+            border: 2px solid rgba(36, 81, 36, 0.626);
+            width:600px;
+            padding:0;
+        } 
+        /* ###Flex Grow###
+        
+        .box
+        {
+            margin: 1px;
+            flex-grow:1;
+        }   
+        .box:nth-child(2)
+        {
+            flex-grow: 3;
+        }*/
+     /* Flex Shrink*/
+        .box
+        {
+            margin:1px;
+            padding: 1px;
+            width:200px;
+            text-align: center;
+        }
+        .box:nth-child(2)
+        {
+            flex-shrink: 2;
+        }
+
+    </style>
+</head>
+<body>
+    <h2>Flex Grow Vs Flex Shrink</h2>
+    <div class="container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+    </div>
+</body>
+</html>
